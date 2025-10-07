@@ -13,11 +13,11 @@ project("${PARAM_PROJECT_NAME}"
 find_package(spdlog REQUIRED)
 find_package(OpenCV REQUIRED)
 
-add_executable(sattu-app main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(sattu-app spdlog::spdlog ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} spdlog::spdlog ${OpenCV_LIBS})
 
 # Install the executable to the standard binary directory
-install(TARGETS my_executable DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(TARGETS ${PROJECT_NAME} DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 
