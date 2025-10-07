@@ -3,8 +3,7 @@ cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 
 include(GNUInstallDirs) # Use standard GNU installation directories
 
-
-project("${PARAM_PROJECT_NAME}"
+project(sattu-app
 	VERSION "${${PROJECT_NAME}_VERSION}"
 	DESCRIPTION "${${PROJECT_NAME}_SUMMARY}"
 	HOMEPAGE_URL "${${PROJECT_NAME}_VENDOR_CONTACT}"
