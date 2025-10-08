@@ -1,0 +1,26 @@
+{
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/oe-logs/**": true,
+        "**/oe-workdir/**": true,
+        "**/source-date-epoch/**": true
+    },
+    "files.exclude": {
+        "**/.git/**": true,
+        "**/oe-logs/**": true,
+        "**/oe-workdir/**": true,
+        "**/source-date-epoch/**": true
+    },
+    "files.readonlyInclude": {
+        "/home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/recipe-sysroot/**": true,
+        "/home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/recipe-sysroot-native/**": true
+    },
+    "python.analysis.exclude": [
+        "**/.git/**",
+        "**/oe-logs/**",
+        "**/oe-workdir/**",
+        "**/source-date-epoch/**"
+    ],
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "/home/ajax/codeprojects/sattu-app"
+}

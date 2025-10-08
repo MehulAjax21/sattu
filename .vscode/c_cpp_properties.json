@@ -1,0 +1,9 @@
+{
+    "configurations": [
+        {
+            "name": "sattu-app: cortexa57",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

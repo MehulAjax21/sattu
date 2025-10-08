@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1234_usr-bin-sattu-app",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/image/usr/bin/sattu-app",
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "1234_usr-bin-sattu-app",
+            "miDebuggerPath": "/home/ajax/codeprojects/yocto/poky/build/tmp/work/x86_64-linux/gdb-cross-aarch64/14.2/recipe-sysroot-native/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gdb",
+            "miDebuggerServerAddress": "192.168.7.2:1234",
+            "sourceFileMap": {
+                "/usr/include": "/home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/recipe-sysroot/usr/include"
+            },
+            "setupCommands": [
+                {
+                    "description": "sysroot",
+                    "text": "set sysroot /home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/image"
+                }
+            ]
+        }
+    ]
+}
