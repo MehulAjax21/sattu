@@ -8,7 +8,7 @@ int main(int argc, char** argv)
     spdlog::set_pattern("[%d-%m-%Y %H:%M:%S.%F][thread %t][%^%l%$] %v");
 
     spdlog::info("Welcome to Sattu App -> Drink Sattu, Forget Whey!!!!");
-    spdlog::info("Please provide an image path");
+    spdlog::info("Dev2: Provide Path to Sattu Image");
       
     // Check if an image path argument is provided
     if (argc != 2) 
