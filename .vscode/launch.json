@@ -6,6 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "/home/ajax/codeprojects/yocto/poky/build/tmp/work/cortexa57-poky-linux/sattu-app/1.0+git/image/usr/bin/sattu-app",
+            "args": ["/home/sattu.jpg"],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],

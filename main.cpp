@@ -4,12 +4,12 @@
 
 int main(int argc, char** argv) 
 {
+    // set log pattern
+    spdlog::set_pattern("[%d-%m-%Y %H:%M:%S.%F][thread %t][%^%l%$] %v");
+
     spdlog::info("Welcome to Sattu App!");
     spdlog::info("Please provide an image path");
-  
-    // change log pattern
-    spdlog::set_pattern("[%d-%m-%Y %H:%M:%S.%F][thread %t][%^%l%$] %v");
-    
+      
     // Check if an image path argument is provided
     if (argc != 2) 
     {
