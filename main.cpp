@@ -3,11 +3,11 @@
 #include <spdlog/spdlog.h>
 
 int main(int argc, char** argv) 
-{
+{   
     // set log pattern
     spdlog::set_pattern("[%d-%m-%Y %H:%M:%S.%F][thread %t][%^%l%$] %v");
 
-    spdlog::info("Welcome to Sattu App -> Drink Sattu, Forget Whey!");
+    spdlog::info("Welcome to Sattu App -> Drink Sattu, Forget Whey!!!!");
     spdlog::info("Please provide an image path");
       
     // Check if an image path argument is provided
