@@ -4,7 +4,7 @@
 
 int main(int argc, char** argv) 
 {
-    spdlog::info("Welcome to spdlog!");
+    spdlog::info("Welcome to Sattu App!");
     spdlog::error("Some error message with arg: {}", 1);
     
     spdlog::warn("Easy padding in numbers like {:08d}", 12);
