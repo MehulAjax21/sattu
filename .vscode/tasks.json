@@ -32,6 +32,30 @@
                     }
                 }
             ]
+        },
+                {
+            "label": "sattu-app-restart",
+            "type": "shell",
+            "isBackground": true,
+            "dependsOn": [],
+            "command": "/home/ajax/codeprojects/yocto/poky/build/workspace/ide-sdk/sattu-app/scripts/gdbserver_1234_usr-bin-sattu-app",
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": ".",
+                            "file": 1,
+                            "location": 2,
+                            "message": 3
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": ".",
+                        "endsPattern": "."
+                    }
+                }
+            ]
         }
     ]
 }
